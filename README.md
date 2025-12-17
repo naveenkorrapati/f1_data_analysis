@@ -5,8 +5,8 @@ This project presents an end-to-end cloud-based data engineering solution design
 
 Key Features
 
-• Automated ingestion of Formula-1 datasets from external APIs into ADLS Gen2
-• Medallion architecture implementation (Bronze, Silver, Gold layers)
+• Automated ingestion of Formula-1 datasets from external APIs into ADLS Gen2 →→
+• Medallion architecture implementation (Bronze, Silver, Gold layers) →→
 • Delta Lake storage for ACID transactions, schema enforcement, and time travel
 • Scalable transformations using PySpark and Databricks notebooks
 • Support for incremental and historical reprocessing
