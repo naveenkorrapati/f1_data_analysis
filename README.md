@@ -6,13 +6,13 @@ This project presents an end-to-end cloud-based data engineering solution design
 Key Features
 
 • Automated ingestion of Formula-1 datasets from external APIs into ADLS Gen2 <br>
-• Medallion architecture implementation (Bronze, Silver, Gold layers) →→
-• Delta Lake storage for ACID transactions, schema enforcement, and time travel
-• Scalable transformations using PySpark and Databricks notebooks
-• Support for incremental and historical reprocessing
-• Power BI dashboards for visualizing dominant drivers, constructors, and race statistics
-• SharePoint-triggered ingestion pipeline for ad-hoc data updates
-• Unified lakehouse design enabling analytics and ML workloads on the same data
+• Medallion architecture implementation (Bronze, Silver, Gold layers) <br>
+• Delta Lake storage for ACID transactions, schema enforcement, and time travel <br>
+• Scalable transformations using PySpark and Databricks notebooks<br>
+• Support for incremental and historical reprocessing<br>
+• Power BI dashboards for visualizing dominant drivers, constructors, and race statistics<br>
+• SharePoint-triggered ingestion pipeline for ad-hoc data updates<br>
+• Unified lakehouse design enabling analytics and ML workloads on the same data<br>
 
 Architecture
 
@@ -24,30 +24,30 @@ The curated tables are consumed by analytics teams via SQL, Databricks notebooks
 
 Data Model
 
-The project includes structured Delta tables for the following domains:
-• Race information (seasons, races, circuits)
-• Participants (drivers, constructors)
-• Performance metrics (results, qualifying, pit stops, lap times)
-• Seasonal standings (driver standings, constructor standings)
-• Supporting metadata (status codes)
+The project includes structured Delta tables for the following domains:<br>
+• Race information (seasons, races, circuits)<br>
+• Participants (drivers, constructors)<br>
+• Performance metrics (results, qualifying, pit stops, lap times)<br>
+• Seasonal standings (driver standings, constructor standings)<br>
+• Supporting metadata (status codes)<br>
 
-Foreign-key relationships follow the natural structure of Formula-1 competition, enabling efficient joins and analysis across tables.
+Foreign-key relationships follow the natural structure of Formula-1 competition, enabling efficient joins and analysis across tables.<br>
 
 Dashboards
 
-Interactive visual reports are built in Power BI to highlight:
-• Dominant drivers across decades
-• Constructor performance and team dominance trends
-• Yearly points progression
-• Historical competitiveness patterns
-These dashboards provide an intuitive view of how Formula-1 racing has evolved over time.
+Interactive visual reports are built in Power BI to highlight:<br>
+• Dominant drivers across decades<br>
+• Constructor performance and team dominance trends<br>
+• Yearly points progression<br>
+• Historical competitiveness patterns<br>
+These dashboards provide an intuitive view of how Formula-1 racing has evolved over time.<br>
 
 Technologies Used
 
-• Azure Data Factory
-• Azure Data Lake Storage Gen2
-• Azure Databricks
-• PySpark / Spark SQL
-• Delta Lake
-• Power BI
-• SharePoint (ad-hoc ingestion triggers)
+• Azure Data Factory<br>
+• Azure Data Lake Storage Gen2<br>
+• Azure Databricks<br>
+• PySpark / Spark SQL<br>
+• Delta Lake<br>
+• Power BI<br>
+• SharePoint (ad-hoc ingestion triggers)<br>
